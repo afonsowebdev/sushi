@@ -5,16 +5,25 @@
 
     --font-family: 'Poppins', sans-serif;
     --font-size: 16px;
-    --font-size-logo: ;
+
     
-
-    --background-image-section-one: url();
-    --background-color: ;
-    --color: ;
-
     /* Largura Header */
     --header-width: 100%;
     --header-height: 100px;
+
+    /* Logo */
+    --font-size-logo: 2rem;
+    --font-weight-logo: 700;
+    --color-logo: #000;
+    --text-shadow-logo: 0 4px 6px rgb(0, 0, 0, 0.3);
+
+    /* Nav-Links */
+    --font-size-link: ;
+    --font-weight-link: ;
+    --color-link: ;
+    --color-link-hover: ;
+
+
 
 }
 
@@ -25,6 +34,7 @@
     box-sizing: border-box;
     font-family: var(--font-family);
     font-size: var(--font-size);
+    
 }
 
 html {
@@ -73,13 +83,27 @@ header .header {
     align-items: center;
     justify-content: space-between;
     margin: 30px auto;
-    
 }
 
+.header__container .header__logo {
+    font-size: var(--font-size-logo);
+    font-weight: var(--font-weight-logo);
+    color: var(--color-logo);
+    text-shadow: var(--text-shadow-logo);
+    transition: all 0.3s ease-in-out;
+}
+
+.header__container .header__logo:hover {
+    transform: translateY(-5px);
+}
 
 
 .header__menu .header__list .header__items{
     padding: 0 20px;
+}
+
+.header__list .header__items {
+    font-size: var();
 }
 
 
