@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-PT">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,11 +8,14 @@
     <meta name="keywords" content="Sushi, Zen, Restaurant, Food, Cuisine">
     <meta name="author" content="Francisco Afonso, 2025">
     <link rel="icon" href="img/favicon.png" type="image/png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="css/style.css">
     <title>Larning Page | SushiZen</title>
 </head>
+
 <body>
     <header class="header" id="header">
         <div class="header__container container">
@@ -36,7 +40,7 @@
             <a href="#" class="header__social"><i class="fab fa-youtube"></i></a>
         </div>
     </header>
-    
+
     <main>
         <div class="container" id="container">
             <section class="section__hero section" id="home">
@@ -52,12 +56,84 @@
 
             <section class="section__about section" id="about">
                 <div class="about__content">
-                    <h2 class="section__title">Sobre Nós</h2>
-                    <p class="about__description">No SushiZen, oferecemos uma experiência gastronómica única, combinando a tradição japonesa com um toque moderno. Cada prato é preparado com ingredientes frescos e de alta qualidade.</p>
+                    <h2 class="about__subtitle">Sobre Nós</h2>
+                    <p class="about__description">No SushiZen, oferecemos uma experiência gastronómica única, combinando
+                        a tradição japonesa com um toque moderno. Cada prato é preparado com ingredientes frescos e de
+                        alta qualidade.</p>
                     <a href="#services" class="button">Nossos Serviços</a>
                 </div>
+                <div class="about__image">
+                    <img src="#" alt="Foto de Perfil Chefe SushiZen" class="about-img">
+                </div>
+            </section>
+
+            <section class="section__service section" id="services">
+                <div class="service__content">
+                    <h2 class="service__subtite">Serviços SushiZen</h2>
+                    <p class="service__paragraph"></p>
+
+                    <div class="service__list">
+                        <div class="service__item">
+                            <i class="fas fa-utensils"></i>
+                            <h3 class="service__title">Restaurante</h3>
+                            <p class="service__description">Desfrute de uma refeição deliciosa no nosso restaurante.</p>
+                        </div>
+                        <div class="service__item">
+                            <i class="fas fa-bicycle"></i>
+                            <h3 class="service__title">Entrega</h3>
+                            <p class="service__description">Receba o seu sushi fresco em casa.</p>
+                        </div>
+                        <div class="service__item">
+                            <i class="fas fa-calendar-alt"></i>
+                            <h3 class="service__title">Reservas</h3>
+                            <p class="service__description">Reserve a sua mesa connosco.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="service__image">
+                    <img src="img/service.jpg" alt="Serviços SushiZen" class="service__img">
+                </div>
+            </section>
+
+            <section class="section__gallery section" id="gallery">
+                <h2 class="gallery__subtitle">Galeria</h2>
+                <div class="gallery__container">
+                    <img src="img/gallery1.jpg" alt="SushiZen Gallery 1" class="gallery__img">
+                    <img src="img/gallery2.jpg" alt="SushiZen Gallery 2" class="gallery__img">
+                    <img src="img/gallery3.jpg" alt="SushiZen Gallery 3" class="gallery__img">
+                    <img src="img/gallery4.jpg" alt="SushiZen Gallery 4" class="gallery__img">
+                </div>
+            </section>
+
+            <section class="secton__contact" id="contact">
+                <h2 class="contact__title">Entre em contacto connosco</h2>
+                <p class="contact__description">Estamos aqui para ajudar. Preencha o formulário abaixo e entraremos em
+                    contacto.</p>
+                <form action="#" class="contact__form">
+                    <input type="text" class="contact__input" placeholder="Nome" required>
+                    <input type="email" class="contact__input" placeholder="Email" required>
+                    <textarea class="contact__textarea" placeholder="Mensagem" required></textarea>
+                    <button type="submit" class="button">Enviar</button>
+                </form>
             </section>
         </div>
     </main>
+
+    <footer class="footer" id="footer">
+        <div class="footer__container container">
+            <div class="footer__content">
+                <h2 class="footer__title">SushiZen</h2>
+                <p class="footer__description">A verdadeira arte do sushi em cada pedaço.</p>
+                <div class="footer__socials">
+                    <a href="#" class="footer__social"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="footer__social"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="footer__social"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="footer__social"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <p class="footer__copy">© 2025 SushiZen. Todos os direitos reservados.</p>
+        </div>
+    </footer>
 </body>
+
 </html>
