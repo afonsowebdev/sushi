@@ -18,11 +18,11 @@
             <a href="#" class="header__logo">SushiZen</a>
             <nav class="header__menu" id="header-menu">
                 <ul class="header__list">
-                    <li><a href="#home" class="header__link">Home</a></li>
-                    <li><a href="#about" class="header__link">About</a></li>
-                    <li><a href="#services" class="header__link">Services</a></li>
-                    <li><a href="#gallery" class="header__link">Gallery</a></li>
-                    <li><a href="#contact" class="header__link">Contact</a></li>
+                    <li class="header__items"><a href="#home" class="header__link">Home</a></li>
+                    <li class="header__items"><a href="#about" class="header__link">About</a></li>
+                    <li class="header__items"><a href="#services" class="header__link">Services</a></li>
+                    <li class="header__items"><a href="#gallery" class="header__link">Gallery</a></li>
+                    <li class="header__items"><a href="#contact" class="header__link">Contact</a></li>
                 </ul>
             </nav>
             <div class="header__toggle" id="header-toggle">
@@ -37,5 +37,27 @@
         </div>
     </header>
     
+    <main>
+        <div class="container" id="container">
+            <section class="section__hero section" id="home">
+                <div class="hero__content">
+                    <h1 class="hero__title">Bem-vindo a <span class="hero__span">SushiZen</span></h1>
+                    <p class="hero__description">A verdadeira arte do sushi em cada pedaço.</p>
+                    <a href="#about" class="button">Learn More</a>
+                </div>
+                <div class="hero__image">
+                    <img src="img/hero.jpg" alt="SushiZen Restaurant" class="hero__img">
+                </div>
+            </section>
+
+            <section class="section__about section" id="about">
+                <div class="about__content">
+                    <h2 class="section__title">Sobre Nós</h2>
+                    <p class="about__description">No SushiZen, oferecemos uma experiência gastronómica única, combinando a tradição japonesa com um toque moderno. Cada prato é preparado com ingredientes frescos e de alta qualidade.</p>
+                    <a href="#services" class="button">Nossos Serviços</a>
+                </div>
+            </section>
+        </div>
+    </main>
 </body>
 </html>
