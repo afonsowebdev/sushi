@@ -18,10 +18,10 @@
     --text-shadow-logo: 0 4px 6px rgb(0, 0, 0, 0.3);
 
     /* Nav-Links */
-    --font-size-link: ;
-    --font-weight-link: ;
-    --color-link: ;
-    --color-link-hover: ;
+    --font-size-link: 1rem;
+    --font-weight-link: 600;
+    --color-link: #000;
+    --color-link-hover: #3b3b3b;
 
 
 
@@ -102,8 +102,9 @@ header .header {
     padding: 0 20px;
 }
 
-.header__list .header__items {
-    font-size: var();
+.header__list .header__items .header__link {
+    font-size: var(--font-size-link);
+    color: var(--color-link);
 }
 
 
