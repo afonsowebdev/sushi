@@ -57,7 +57,29 @@ ul {
 }
 
 li {
-    list-style: none;
+    display: inline;
+    
+}
+
+/* Header */
+
+header .header {
+    width: var(--header-width);
+    height: var(--header-height);
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px auto;
+    
+}
+
+
+
+.header__menu .header__list .header__items{
+    padding: 0 20px;
 }
 
 
